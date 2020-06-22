@@ -1,3 +1,3 @@
-export const name = elements => value => {
-    elements.name.innerText = value;
+export const name = root => value => {
+
 };
