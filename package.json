@@ -24,7 +24,8 @@
     },
     "keywords": [
         "web",
-        "components"
+        "components",
+		"quantum"
     ],
     "files": [
         "references",
