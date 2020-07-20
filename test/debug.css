@@ -2,3 +2,8 @@ body {
     visibility: hidden;
     margin: 0;
 }
+
+quantum-layout {
+    display: flex;
+    flex-direction: column;
+}
