@@ -1,9 +1,12 @@
 export default `
 <style>
     ::slotted(*) {
-        flex: 1 1 auto;
+    }
+
+    :host {
+        display: block;
+        height: 100%;
     }
 </style>
 <slot></slot>
-<slot name="divider"></slot>
 `; 

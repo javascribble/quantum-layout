@@ -2,12 +2,3 @@ body {
     visibility: hidden;
     margin: 0;
 }
-
-div {
-    border: solid black 1px;
-}
-
-quantum-layout {
-    display: flex;
-    flex-direction: column;
-}
