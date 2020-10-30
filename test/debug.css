@@ -2,3 +2,7 @@ body {
     visibility: hidden;
     margin: 0;
 }
+
+div {
+    border: solid black 1px;
+}
