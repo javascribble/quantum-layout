@@ -8,7 +8,7 @@ export class Layout extends Component {
 
     static template = template(html);
 
-    static get observedAttributes() { return ['stack']; }
+    static get observedAttributes() { return ['stack', 'lock']; }
 }
 
 define('quantum-layout', Layout);

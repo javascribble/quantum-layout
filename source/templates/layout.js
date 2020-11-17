@@ -9,11 +9,11 @@ export default `
         flex-direction: column;
     }
 
-    :host([stack]) > ::slotted(:not(:last-child)) {
+    :host([stack]:not([lock])) > ::slotted(:not([lock]):not(:last-child)) {
         resize: vertical;
     }
 
-    :host(:not([stack])) > ::slotted(:not(:last-child)) {
+    :host(:not([stack]):not([lock])) > ::slotted(:not([lock]):not(:last-child)) {
         resize: horizontal;
     }
 
