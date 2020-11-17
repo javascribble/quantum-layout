@@ -9,6 +9,14 @@ export class Layout extends Component {
     static template = template(html);
 
     static get observedAttributes() { return ['stack', 'lock']; }
+
+    slotChangedCallback(slot, addedElements, deletedElements, currentElements) {
+        //addedElements.forEach(element => element.addEventListener('click', this.#activate));
+        //deletedElements.forEach(element => element.removeEventListener('click', this.#activate));
+        if (currentElements.length === 0) {
+            this.parentElement.removeChild(this);
+        }
+    }
 }
 
 define('quantum-layout', Layout);

@@ -1,8 +1,16 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     visibility: hidden;
     margin: 0;
 }
 
 div {
-    border: solid black 1px;
+    min-width: 200px;
+    min-height: 200px;
+    text-align: center;
+    background: lightgrey;
+    border: 1px solid grey;
 }
