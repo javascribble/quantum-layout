@@ -9,7 +9,8 @@ const drop = event => {
     event.preventDefault();
     const target = event.target;
     const parent = target.parentElement;
-    const sources = document.querySelectorAll(`#${event.dataTransfer.getData('id')}`);
+    const id = event.dataTransfer.getData('id');
+    const sources = document.querySelectorAll(`#${id}`);
     for (const source of sources) {
         parent.insertBefore(source, target);
     }
