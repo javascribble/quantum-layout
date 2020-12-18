@@ -5,12 +5,18 @@
     </head>
     <body>
         <quantum-layout>
-            <div id="panel1">test1</div>
-            <div id="panel2">test2</div>
+            <quantum-tabs dock="top">
+                <div id="panel1">test1</div>
+                <div id="panel2">test2</div>
+            </quantum-tabs>
             <quantum-layout stack>
-                <div id="panel3">test3</div>
-                <div id="panel4">test4</div>
-                <div id="panel5">test5</div>
+                <quantum-tabs dock="top">
+                    <div id="panel3">test3</div>
+                </quantum-tabs>
+                <quantum-tabs dock="top">
+                    <div id="panel4">test4</div>
+                    <div id="panel5">test5</div>
+                </quantum-tabs>
             </quantum-layout>
         </quantum-layout>
     </body>

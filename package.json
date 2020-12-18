@@ -4,10 +4,11 @@
     "version": "1.0.3",
     "license": "MIT",
     "dependencies": {
-        "@javascribble/quantum": "^1.0.24"
+        "@javascribble/quantum": "^1.0.28"
     },
     "devDependencies": {
-        "live-server": "*"
+        "live-server": "*",
+        "@javascribble/quantum-tabs": "*"
     },
     "scripts": {
         "start": "live-server --open=/test/debug.html",
