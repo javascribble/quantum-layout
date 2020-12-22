@@ -9,15 +9,19 @@ export default `
         flex-direction: column;
     }
 
-    :host([resizing]) {
-        cursor: ew-resize
-    }    
+    :host([stack]:not([lock])) > ::slotted(:not([lock]):not(:last-child)) {
+        resize: vertical;
+    }
 
-    :host([resizing][stack]) {
-        cursor: ns-resize;
+    :host(:not([stack]):not([lock])) > ::slotted(:not([lock]):not(:last-child)) {
+        resize: horizontal;
     }
 
     ::slotted(*) {
+        overflow: auto;
+    }
+
+    ::slotted(:last-child) {
         flex-grow: 1;
     }
 </style>

@@ -7,8 +7,8 @@
         "@javascribble/quantum": "^1.0.28"
     },
     "devDependencies": {
-        "live-server": "*",
-        "@javascribble/quantum-tabs": "*"
+        "@javascribble/quantum-tabs": "^1.0.9",
+        "live-server": "*"
     },
     "scripts": {
         "start": "live-server --open=/test/debug.html",
