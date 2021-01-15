@@ -1,10 +1,9 @@
-import { Component, template, define } from '../import.js';
 import html from '../templates/layout.js';
 
 export class Layout extends Component {
     static template = template(html);
 
-    static get observedAttributes() { return ['stack', 'lock']; }
+    static get observedAttributes() { return ['stack']; }
 
     defaultSlotChanged(slot, addedElements, deletedElements, currentElements) {
         if (currentElements.length === 0) {
