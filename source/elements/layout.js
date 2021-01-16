@@ -5,7 +5,7 @@ export class Layout extends Component {
 
     static get observedAttributes() { return ['stack']; }
 
-    defaultSlotChanged(slot, addedElements, deletedElements, currentElements) {
+    slotChangedCallback(slot, addedElements, deletedElements, currentElements) {
         if (currentElements.length === 0) {
             this.remove();
         }
