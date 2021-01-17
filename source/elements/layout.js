@@ -10,6 +10,14 @@ export class Layout extends Component {
             this.remove();
         }
     }
+
+    serialize() {
+
+    }
+
+    deserialize(data) {
+
+    }
 }
 
 define('quantum-layout', Layout);
