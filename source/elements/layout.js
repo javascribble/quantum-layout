@@ -1,5 +1,7 @@
 import html from '../templates/layout.js';
 
+const { Component, template, define } = quantum;
+
 export class Layout extends Component {
     static template = template(html);
 
