@@ -1,9 +1,9 @@
 import html from '../templates/layout.js';
 
-const { Component, template, define } = quantum;
-
-export class Layout extends Component {
-    static template = template(html);
+export class Layout extends Quantum {
+    constructor() {
+        super();
+    }
 
     static get observedAttributes() { return ['stack']; }
 
@@ -14,4 +14,4 @@ export class Layout extends Component {
     }
 }
 
-define('quantum-layout', Layout);
+Layout.define('quantum-layout', html);
