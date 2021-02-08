@@ -1,1 +1,1 @@
-import {'./elements/layout.js';
+import './elements/layout.js';
