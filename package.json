@@ -4,10 +4,10 @@
     "version": "1.2.1",
     "license": "MIT",
     "dependencies": {
-        "@javascribble/quantum": "^1.2.4"
+        "@javascribble/quantum": "^1.2.6"
     },
     "devDependencies": {
-        "@javascribble/quantum-tabs": "^1.2.0",
+        "@javascribble/quantum-tabs": "^1.2.1",
         "live-server": "*"
     },
     "scripts": {
