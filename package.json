@@ -7,7 +7,7 @@
         "@javascribble/quantum": "^1.2.8"
     },
     "devDependencies": {
-        "@javascribble/quantum-tabs": "^1.2.2",
+        "@javascribble/quantum-tabs": "^1.2.3",
         "live-server": "*"
     },
     "scripts": {
