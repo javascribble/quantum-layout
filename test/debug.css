@@ -11,9 +11,13 @@ div {
     background-color: darkgrey;
 }
 
+quantum-layout {
+    height: 100%;
+}
+
 quantum-tabs {
-    min-width: 50px;
-    min-height: 50px;
+    min-width: min-content;
+    min-height: min-content;
     border: 1px solid grey;
     box-sizing: border-box;    
     --background-color: lightgrey;
