@@ -2,7 +2,6 @@ export default `
 <style>
     :host {
         display: flex;
-        position: relative;
     }
 
     :host([stack]) {
@@ -19,7 +18,6 @@ export default `
 
     ::slotted(*) {
         overflow: auto;
-        flex-basis: 50%;
     }
 
     ::slotted(:last-child) {

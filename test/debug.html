@@ -5,20 +5,24 @@
     </head>
     <body>
         <quantum-layout>
-            <quantum-tabs id="tabs1" dock="top">
-                <div id="panel1">test1</div>
-                <div id="panel2">test2</div>
+            <quantum-tabs id="tabs1" dock="top" style="width: 50%;">
+                <div tab="panel1" slot="tabs" draggable="true">tab 1</div>
+                <div tab="panel2" slot="tabs" draggable="true">tab 2</div>
+                <div tab="panel1">test1</div>
+                <div tab="panel2">test2</div>
             </quantum-tabs>
             <quantum-layout stack>
-                <quantum-tabs id="tabs2" dock="top">
-                    <div id="panel3">test3</div>
-                    <div id="panel4">test4</div>
-                    <div id="panel5">test5</div>
+                <quantum-tabs id="tabs2" dock="top" style="height: 50%;">
+                    <div tab="panel3" slot="tabs" draggable="true">tab 3</div>
+                    <div tab="panel4" slot="tabs" draggable="true">tab 4</div>
+                    <div tab="panel3">test3</div>
+                    <div tab="panel4">test4</div>
                 </quantum-tabs>
                 <quantum-tabs id="tabs3" dock="top">
-                    <div id="panel6">test6</div>
-                    <div id="panel7">test7</div>
-                    <div id="panel8">test8</div>
+                    <div tab="panel5" slot="tabs" draggable="true">tab 5</div>
+                    <div tab="panel6" slot="tabs" draggable="true">tab 6</div>
+                    <div tab="panel5">test5</div>
+                    <div tab="panel6">test6</div>
                 </quantum-tabs>
             </quantum-layout>
         </quantum-layout>
