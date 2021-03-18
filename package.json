@@ -7,6 +7,7 @@
         "@javascribble/quantum": "^1.2.8"
     },
     "devDependencies": {
+        "@javascribble/quantum-tabs": "^1.2.8",
         "@javascribble/rollup-quantum-build": "^1.1.1",
         "live-server": "*"
     },
