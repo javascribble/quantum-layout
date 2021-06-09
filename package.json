@@ -1,18 +1,17 @@
 {
     "name": "@javascribble/quantum-layout",
     "description": "",
-    "version": "1.2.7",
+    "version": "1.4.0",
     "license": "MIT",
     "dependencies": {
-        "@javascribble/quantum": "^1.2.8"
+        "@javascribble/quantum": "^1.5.0"
     },
     "devDependencies": {
-        "@javascribble/quantum-tabs": "^1.2.8",
-        "@javascribble/rollup-quantum-build": "^1.1.1",
+        "@javascribble/quantum-tabs": "^1.5.0",
         "live-server": "*"
     },
     "scripts": {
-        "build": "node ./node_modules/@javascribble/rollup-quantum-build/source/main.js ./source/main.js ./build",
+        "build": "cd ../rollup-quantum-build && npm start ../quantum-layout/source/main.js ../quantum-layout/build",
         "start": "live-server --open=/test/debug.html",
         "postversion": "npm publish --access public"
     },
