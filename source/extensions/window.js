@@ -1,4 +1,4 @@
-import { Layout } from '../elements/layout.js';
+const { Layout } = Quantum;
 
 Layout.prototype.popout = function () {
 };

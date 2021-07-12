@@ -1,3 +1,5 @@
+import layout from '../templates/layout.js';
+
 export class Layout extends Quantum {
     static get observedAttributes() { return ['stack', 'leaf']; }
 
@@ -7,3 +9,5 @@ export class Layout extends Quantum {
         }
     }
 }
+
+Layout.define('quantum-layout', layout);

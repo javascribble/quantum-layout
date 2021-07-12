@@ -1,7 +1,7 @@
-import '/node_modules/@javascribble/quantum/source/main.js';
-import '/node_modules/@javascribble/quantum-tabs/source/main.js';
-import '/source/extensions/storage.js';
-import '/source/main.js';
+import '/node_modules/@javascribble/quantum/bundles/main-window.js';
+import '/node_modules/@javascribble/quantum-tabs/bundles/main.js';
+import '/bundles/main.js';
+import '/bundles/main-extensions.js';
 
 const layout = document.querySelector("#root");
 
