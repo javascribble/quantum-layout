@@ -8,19 +8,6 @@ export class Layout extends Quantum {
             this.remove();
         }
     }
-
-    save() {
-        for (const element of this.slots.get('')) {
-            const { width, height } = element.style;
-            localStorage.setItem(element.id, JSON.stringify({ width, height }));
-        }
-    }
-
-    load() {
-        for (const element of this.slots.get('')) {
-            Object.assign(element.style, JSON.parse(localStorage.getItem(element.id)));
-        }
-    }
 }
 
 Layout.define('quantum-layout', layout);
