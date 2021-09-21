@@ -1,7 +1,3 @@
-* {
-    box-sizing: border-box;
-}
-
 body {
     visibility: hidden;
     margin: 0;
@@ -17,12 +13,6 @@ div[active] {
     background-color: darkgrey;
 }
 
-quantum-layout {
-    height: 100%;
-}
-
 quantum-tabs {
-    min-width: min-content;
-    min-height: min-content;
     border: 1px solid grey;
 }
