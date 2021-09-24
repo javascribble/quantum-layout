@@ -1,7 +1,6 @@
 export default `
 <style>
     :host {
-        height: 100%;
         display: flex;
     }
 

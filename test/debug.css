@@ -13,6 +13,10 @@ div[active] {
     background-color: darkgrey;
 }
 
+quantum-layout {
+    height: 100%;
+}
+
 quantum-tabs {
     border: 1px solid grey;
 }
